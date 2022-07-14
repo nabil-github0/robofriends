@@ -6,16 +6,16 @@ h2 {
     font-size:2.9em;
 }
 
-h1 {
-    font-size: 26px;
+.nabil {
+    font-size: 1.6em;
 }
 input {
     padding:0.6em;
 }
 
 .shadow-5 {
-    height: 28em;
-    width:20em;
+    height: 27em;
+    width:19em;
 }
 img {
     height: 19em;
@@ -23,12 +23,42 @@ img {
 }
 
 @media only screen and (max-width:600px) {
+    h2 {
+        font-family: 'Edu SA Beginner', cursive;
+        font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-size:2.4em;
+    }
+    .nabil {
+        font-size:1.5em;
+    }
     input {
         padding: 0.5em;
     }
     .shadow-5 {
         height: 23em;
         width:19em;
+    }
+    img {
+        height: 15em;
+        width: 14em;
+    }
+}
+
+@media only screen and (max-width:380px){
+    h2 {
+        font-family: 'Edu SA Beginner', cursive;
+        font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-size:2.2em;
+    }
+    .nabil {
+        font-size: 1.4em;
+    }
+    input {
+        padding: 0.5em;
+    }
+    .shadow-5 {
+        height: 21em;
+        width:17em;
     }
     img {
         height: 15em;
