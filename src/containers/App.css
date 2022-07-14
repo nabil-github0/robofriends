@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Edu+VIC+WA+NT+Beginner:wght@700&display=swap');
+
+h2 {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+h1 {
+    font-size: 26px;
+}
