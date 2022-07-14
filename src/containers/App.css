@@ -3,8 +3,35 @@
 h2 {
     font-family: 'Edu SA Beginner', cursive;
     font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size:2.9em;
 }
 
 h1 {
     font-size: 26px;
+}
+input {
+    padding:0.6em;
+}
+
+.shadow-5 {
+    height: 28em;
+    width:20em;
+}
+img {
+    height: 19em;
+    width: 19em;
+}
+
+@media only screen and (max-width:600px) {
+    input {
+        padding: 0.5em;
+    }
+    .shadow-5 {
+        height: 23em;
+        width:19em;
+    }
+    img {
+        height: 15em;
+        width: 14em;
+    }
 }
